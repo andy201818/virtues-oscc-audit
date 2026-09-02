@@ -1,0 +1,35 @@
+cohort,virtues_ref_no,technology,tissue_origin,core_or_additional,virtues_sp32_membership,evidence_source
+Cords et al. (lung),42,IMC,primary lung cancer,core-15,in-corpus,"VirTues Supp Tab.1 (MOESM1, 本地 data/MOESM1_fulltext.txt L346-347)"
+Danenberg et al.,6,IMC,primary breast cancer,core-15,in-corpus,VirTues Supp Tab.1
+Hoch et al.,48,IMC,"primary and metastatic melanoma",core-15,in-corpus,VirTues Supp Tab.1
+Jackson et al.,43,IMC,primary breast cancer,core-15,in-corpus,VirTues Supp Tab.1
+Damond et al.,81,IMC,healthy and diabetic pancreas,core-15,in-corpus,VirTues Supp Tab.1
+Zhu et al.,77,IMC,primary lung cancer,core-15,in-corpus,VirTues Supp Tab.1
+Schulz et al. (IMMUcan),53,IMC,"primary lung, breast, colon, kidney, HEAD AND NECK cancer (179 patients)",core-15,in-corpus,VirTues Supp Tab.1 (行内明确列出 head and neck cancer)
+Rigamonti et al.,8,IMC,primary lung cancer,core-15,in-corpus,VirTues Supp Tab.1
+Cords et al. (breast),52,IMC,primary breast cancer,core-15,in-corpus,VirTues Supp Tab.1
+Hu et al.,78,IMC,"primary lung cancer, tonsil and endometrium",core-15,in-corpus,VirTues Supp Tab.1
+Moldoveanu et al.,56,IMC,"primary and metastatic melanoma",core-15,in-corpus,VirTues Supp Tab.1
+Schulz et al. (breast),80,IMC,primary breast cancer,core-15,in-corpus,VirTues Supp Tab.1
+Allam et al.,79,IMC,primary lung cancer,core-15,in-corpus,VirTues Supp Tab.1
+Wang et al.,2,IMC,primary breast cancer,core-15,in-corpus,VirTues Supp Tab.1
+Meyer et al.,3,IMC,primary breast cancer,core-15,in-corpus,VirTues Supp Tab.1
+Phillips et al.,44,CODEX,cutaneous lymphoma tissue,additional-17,in-corpus,"VirTues Supp Tab.2; Methods语料句: 7 CODEX = 44,82,83,84,85,86,87"
+Hickey et al.,82,CODEX,small intestine and colon tissue,additional-17,in-corpus,"VirTues Supp Tab.2; Methods语料句: 7 CODEX = 44,82,83,84,85,86,87"
+Schürch et al.,83,CODEX,primary colon cancer,additional-17,in-corpus,"VirTues Supp Tab.2; Methods语料句: 7 CODEX = 44,82,83,84,85,86,87"
+Ruf et al.,84,CODEX,primary liver cancer,additional-17,in-corpus,"VirTues Supp Tab.2; Methods语料句: 7 CODEX = 44,82,83,84,85,86,87"
+Lin et al. (CODEX),85,CODEX,primary colon cancer,additional-17,in-corpus,"VirTues Supp Tab.2; Methods语料句: 7 CODEX = 44,82,83,84,85,86,87"
+Consortium,86,CODEX,spleen and lymph node tissue,additional-17,in-corpus,"VirTues Supp Tab.2; Methods语料句: 7 CODEX = 44,82,83,84,85,86,87"
+Monkman et al.,87,CODEX,primary lung cancer,additional-17,in-corpus,"VirTues Supp Tab.2; Methods语料句: 7 CODEX = 44,82,83,84,85,86,87"
+Lin et al. (Orion),4,Orion,primary colon cancer,additional-17,in-corpus,"VirTues Supp Tab.2; Methods语料句: one Orion dataset (ref 4)"
+Liu et al.,88,MIBI,"healthy tonsil/lymph node/thymus/spleen/placenta; salivary gland, bladder, breast, soft-tissue and colorectal cancer",additional-17,in-corpus,"VirTues Supp Tab.2; Methods语料句: 2 MIBI = 88,89"
+Rumberger et al.,89,MIBI,primary breast cancer,additional-17,in-corpus,"VirTues Supp Tab.2; Methods语料句: 2 MIBI = 88,89"
+Xiao et al.,90,IMC,primary melanoma,additional-17,in-corpus,"VirTues Supp Tab.2; Methods语料句: 7 additional IMC = 90-96"
+Fischer et al.,91,IMC,"primary and metastatic breast cancer",additional-17,in-corpus,"VirTues Supp Tab.2; Methods语料句: 7 additional IMC = 90-96"
+Malchiodi et al.,92,IMC,primary pancreas cancer,additional-17,in-corpus,"VirTues Supp Tab.2; Methods语料句: 7 additional IMC = 90-96"
+Cho et al.,93,IMC,"primary and metastatic pancreas cancer",additional-17,in-corpus,"VirTues Supp Tab.2; Methods语料句: 7 additional IMC = 90-96"
+Ehret et al.,94,IMC,colorectal cancer organoid,additional-17,in-corpus (修正: 原稿误标 out-of-corpus),"VirTues Supp Tab.2 (Ehret94 行); Methods语料句: 7 additional IMC = 90,91,92,93,94,95,96; 94=Ehret"
+Salié et al.,95,IMC,primary liver cancer,additional-17,in-corpus (修正: 原稿误标 out-of-corpus),"VirTues Supp Tab.2 (Salié95 行); Methods语料句: 7 additional IMC = 90,91,92,93,94,95,96; 95=Salié"
+Gupta et al.,96,IMC,healthy breast tissue,additional-17,in-corpus,"VirTues Supp Tab.2; Methods语料句: 7 additional IMC = 90-96"
+Einhaus et al. 2023 (UOP+STA; 本研究评估队列),not-listed,IMC,oral squamous cell carcinoma (OSCC),not-in-32-list,not-a-named-cohort-in-corpus,"未出现于VirTues Supp Tab.1/Tab.2 任何一行; 但语料含Schulz53 (IMMUcan, head and neck cancer)且无样本级manifest, 故不可宣称OSCC完全不在语料 (见claim_audit.csv)"
+IMMUcan两例SCCHN样本 (本研究对照),Schulz53子集,IMC,SCCHN (head and neck),cohort-in-corpus / sample-level-unverified,cohort in-corpus; 两样本是否进入训练不可证,"VirTues Supp Tab.1 Schulz53行(head and neck cancer, 179 patients); IMMUcan正式论文含SCCHN; 无样本级训练manifest"

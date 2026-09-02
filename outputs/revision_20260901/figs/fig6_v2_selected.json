@@ -1,0 +1,7 @@
+{
+ "tissue": "S02_2",
+ "window": "320_384",
+ "r_CD45": 0.828,
+ "r_pSTAT3": 0.092,
+ "selection": "max CD45 r among densest-2 windows of first 12 STA tissues"
+}

@@ -1,0 +1,23 @@
+{
+  "task": "A6 IMMUcan两例SCCHN metadata证据",
+  "extraction_date": "2026-09-01",
+  "executed_script": "immucan_metadata_extraction.py (Python 3.11 + rdata, 本机无R)",
+  "canonical_R_script": "immucan_metadata_extraction.R (本机无R环境，未执行；与Python版字段/断言一致)",
+  "samples_used_by_study": [
+    "10089821-SPECT-VAR-TIS-UNST-03_001",
+    "10089829-SPECT-VAR-TIS-UNST-03_001"
+  ],
+  "evidence_chain": {
+    "step1_raw_field": "sce_raw.rds colData: Indication='HN' for both samples (457,117 cells total; domain={BREAS,GI,GU,HN,THOR})",
+    "step2_cross_check": "sce_labelled_V3.rds colData: Indication='HN' for both samples (80,988 cells)",
+    "step3_official_mapping": "IMMUcan正式论文 (PMC12539258): 五癌种之一 = 'squamous cell carcinoma of head and neck (SCCHN)' -> HN=SCCHN",
+    "step4_usage_trace": "outputs/immucan_incorpus_control.py L38-39 HN_IDS[:2] 即这两例; 权重=已校验sp32 model.safetensors"
+  },
+  "assertions_passed": "两样本在两份RDS中Indication均唯一且='HN'",
+  "rds_sha256": {
+    "sce_raw.rds": "6836AB053B2DD84C5DA6B1FE94D018289AC750C66D071A2C2F040B6BB69E8807",
+    "sce_labelled_V3.rds": "CF9D07BD33053A004CE61933CF114A4AC77402CE248CC48FB9EF582B1A1BB2AC"
+  },
+  "csv_sha256": "9F003C3B56430E9C6405759BEF9579E7C3A239DA2141DA386677E69A8C49072B",
+  "manuscript_wording": "two samples from an SCCHN cohort represented in the pretraining corpus（不写two in-corpus samples: 样本级训练manifest不存在）"
+}

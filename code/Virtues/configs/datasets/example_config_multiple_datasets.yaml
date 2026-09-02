@@ -1,0 +1,13 @@
+datasets:
+  example_dataset_1:
+    name: cords2024cancer
+    path: assets/example_dataset/cords2024cancer
+    modality: imc
+    standardization: quantile_clipping_log1p/uq_0.99_image
+    resolution: 1.0
+  example_dataset_2:
+    name: cords2024cancer
+    path: /path/to/datasets/cords2024cancer
+    modality: imc
+    standardization: quantile_clipping_log1p/uq_0.99_image
+    resolution: 1.0

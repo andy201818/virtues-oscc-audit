@@ -1,0 +1,36 @@
+{
+ "selection_rule": "per cohort, tissues in sorted file order with index k % 4 == 0 (every fourth ROI), then the two highest tissue-density 128x128 windows per selected ROI",
+ "n_patients_selected": 36,
+ "n_patients_selected_by_cohort": {
+  "STA": 18,
+  "UOP": 18
+ },
+ "n_roi_selected": 36,
+ "n_windows": 72,
+ "n_roi_total": 142,
+ "n_roi_excluded": 106,
+ "patients_all_48_note": "one ROI per selected patient; 36 of the 48 patients entered Task 2 (12 excluded by the k%4==0 rule)",
+ "representativeness": {
+  "n_cells": {
+   "selected_median": 3363.0,
+   "nonselected_median": 3469.0,
+   "median_diff": -106.0,
+   "ci95_lo": -527.0,
+   "ci95_hi": 195.51249999999993,
+   "mannwhitney_p": 0.7321036635017967,
+   "n_selected": 36,
+   "n_nonselected": 106
+  },
+  "vessel_frac": {
+   "selected_median": 0.18017021481398296,
+   "nonselected_median": 0.1733804013850789,
+   "median_diff": 0.006789813428904057,
+   "ci95_lo": -0.05452087426903634,
+   "ci95_hi": 0.031461787892343766,
+   "mannwhitney_p": 0.7838305542843055,
+   "n_selected": 36,
+   "n_nonselected": 106
+  }
+ },
+ "note": "deterministic, post-hoc disclosed subsample set at cache-construction time (v5.1); full-142-ROI extension not run (compute); representativeness comparison computed in this script"
+}

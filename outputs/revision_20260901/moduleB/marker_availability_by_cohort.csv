@@ -1,0 +1,9 @@
+﻿marker,cohort,n_cells,n_nonmissing,fraction_nonmissing,availability
+Ki67,UOP,273408,273408,1.0,measured
+Ki67,STA,224830,224830,1.0,measured
+CD31,UOP,273408,273408,1.0,measured
+CD31,STA,224830,224830,1.0,measured
+Podoplanin,UOP,273408,273408,1.0,measured
+Podoplanin,STA,224830,0,0.0,absent-from-panel
+panCK,UOP,273408,273408,1.0,measured
+panCK,STA,224830,224830,1.0,measured

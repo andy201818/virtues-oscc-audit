@@ -1,0 +1,22 @@
+virtues-sp32 checkpoint SHA-256 record (A1, 2026-09-01)
+========================================================
+
+Local file   : <project-root>\data\weights\virtues-sp32\model.safetensors
+Local SHA-256: 974EBBD557C3717D49D4BCC83BA97632E8980EB94EC6A72C3C5F6C307024E7D7
+Expected     : 974ebbd557c3717d49d4bcc83ba97632e8980eb94ec6a72c3c5f6c307024e7d7  (分析规范A1)
+Remote (HF)  : 974ebbd557c3717d49d4bcc83ba97632e8980eb94ec6a72c3c5f6c307024e7d7  (bunnelab/virtues virtues-sp32/model.safetensors LFS oid)
+Size         : 173,543,760 bytes (local = remote)
+
+Verdict      : MATCH (local == taskbook expected == HF remote LFS oid)
+Stop condition "SHA-256不匹配" NOT triggered.
+
+Hash command (PowerShell, per taskbook):
+  Get-FileHash -Algorithm SHA256 -LiteralPath "<project-root>\data\weights\virtues-sp32\model.safetensors"
+
+Remote verification API (queried 2026-09-01 via hf-mirror.com; huggingface.co returns identical values):
+  https://hf-mirror.com/api/models/bunnelab/virtues/tree/main/virtues-sp32?expand=true
+  -> virtues-sp32/model.safetensors | lfs.oid = 974ebbd557c3717d49d4bcc83ba97632e8980eb94ec6a72c3c5f6c307024e7d7
+  -> file lastCommit date 2026-06-22T14:00:52Z (unchanged since upload)
+
+Note: segmentation-head.safetensors (remote oid bdb3130c...) 未下载、未参与本研究推理；
+本研究仅加载 model.safetensors（全部9个分析脚本硬编码同一路径）。

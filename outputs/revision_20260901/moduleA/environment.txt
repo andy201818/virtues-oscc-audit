@@ -1,0 +1,46 @@
+Analysis environment record (A1, 2026-09-01)
+=============================================
+
+Host OS        : Microsoft Windows 11 家庭版 中文版 (10.0.26200 x64)
+Shell          : Git Bash (execution via powershell.exe for hashing)
+GPU            : NVIDIA GeForce RTX 5060 Ti, 16311 MiB, driver 591.86
+CUDA available : True (torch.cuda.is_available())
+
+Python environment (project venv)
+Path            : <project-root>\code\venv
+Interpreter     : Python 3.12.13 (main, Jun 23 2026, 15:23:43) [MSC v.1942 64 bit (AMD64)]
+Package manager : uv (no conda on this machine)
+
+Key packages (import-verified versions):
+  torch             2.11.0+cu128
+  numpy             2.5.2
+  pandas            3.0.5
+  scikit-learn      1.9.0
+  scipy             1.18.1
+  safetensors       0.8.0
+  huggingface_hub   1.28.0
+  matplotlib        3.11.1
+  umap-learn        0.5.12
+  pyarrow           25.0.1
+  flash-attn        NOT INSTALLED (fallback patch active, see model_provenance.json)
+  spora CLI         NOT in venv\Scripts (IMMUcan data already on disk; not needed for inference)
+
+VirTues engine code
+  Repo    : https://github.com/bunnelab/Virtues.git
+  Commit  : a9f66d62e982eafe4527815fdf7ea3859460173e (2026-08-25, "updated README")
+  Patch   : virtues/modules/layers/attention_flashattention.py modified locally
+            (+49/-8; flash-attn import guard + padded-batch SDPA varlen fallback)
+            sha256(modified file) = 39DF92CD470EACED3434477DE16AB0082D44AD3A6A066047C8BBDCAAE91CE346
+  All other tracked files: clean (git status)
+
+Model weights actually loaded by every analysis script
+  <project-root>\data\weights\virtues-sp32\model.safetensors
+  SHA-256 = 974EBBD557C3717D49D4BCC83BA97632E8980EB94EC6A72C3C5F6C307024E7D7 (see checkpoint_sha256.txt)
+
+Version-control status of analysis code
+  outputs\ is NOT under git. Mitigation: script inventory + SHA-256 checksums
+  (input_checksums.csv in the revision evidence package). Recommendation: init git + tag.
+
+Network notes
+  huggingface.co direct API reachable on 2026-09-01 via both hf-mirror.com and direct query
+  (identical values); zenodo.org blocked at router DNS (documented workaround exists).

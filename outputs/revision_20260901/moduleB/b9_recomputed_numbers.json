@@ -1,0 +1,31 @@
+{
+ "UOP": {
+  "candidate_cell_fraction": 0.04642146535580524,
+  "candidate_vessel_pct": 0.8829183737787583,
+  "other_vessel_pct": 0.1551841850902898,
+  "vessel_cells_in_candidate_mean_ki67": 0.0433260979130189,
+  "vessel_cells_in_other_mean_ki67": 0.06314236505616262,
+  "vessel_cells_in_candidate_mean_cd31": 0.8112168208383586,
+  "vessel_cells_in_other_mean_cd31": 0.805342628062096,
+  "vessel_cells_in_candidate_mean_pdpn": 0.04635931795667547,
+  "vessel_cells_in_other_mean_pdpn": 0.07570455732894361
+ },
+ "STA": {
+  "candidate_cell_fraction": 0.01723969221189343,
+  "candidate_vessel_pct": 0.935500515995872,
+  "other_vessel_pct": 0.16678584682784653,
+  "vessel_cells_in_candidate_mean_ki67": 0.04968388366745746,
+  "vessel_cells_in_other_mean_ki67": 0.08752679639658424,
+  "vessel_cells_in_candidate_mean_cd31": 1.086313316643268,
+  "vessel_cells_in_other_mean_cd31": 1.0335689028470816
+ },
+ "pooled": {
+  "candidate_cell_fraction": 0.03325318422119549,
+  "candidate_vessel_pct": 0.895219700627716,
+  "other_vessel_pct": 0.16050615566674278,
+  "vessel_cells_in_candidate_mean_ki67": 0.044880394780979674,
+  "vessel_cells_in_other_mean_ki67": 0.07476574418406444,
+  "vessel_cells_in_candidate_mean_cd31": 0.8784700499233505,
+  "vessel_cells_in_other_mean_cd31": 0.9141317354126189
+ }
+}

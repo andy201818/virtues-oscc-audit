@@ -1,0 +1,12 @@
+{
+ "K_shift": 40,
+ "B": 9999,
+ "seed": 20260901,
+ "lambda_ridge": 1.0,
+ "exchange_unit": "window",
+ "p_definition": "add-one (b+1)/(B+1)",
+ "fdr": "BH on one-sided P, 39 markers",
+ "n_windows": 72,
+ "template_baseline": "LOWO逐像素平均模板(留一窗); 主基线=LOWO ridge(λ=1.0; 共享目标特征=其余36共享通道, UOP独有目标=37共享通道/仅UOP窗Gram留一窗)",
+ "generated_by": "pn2_analysis.py"
+}

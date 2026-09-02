@@ -1,0 +1,24 @@
+{
+ "note": "补充诊断, 非锁定规范主分析; B8决策以cluster_stability.csv(锁定规范MiniBatchKMeans)为准",
+ "diag1_vessel_axis_consistent": true,
+ "diag1_min_max_vessel_pct": 0.8829183737787583,
+ "diag1_vessel_dominated_cluster_counts": [
+  2,
+  3,
+  2,
+  4,
+  4,
+  4,
+  4,
+  2,
+  4,
+  2
+ ],
+ "diag2_full_kmeans_pairwise_ari_vs_seed0": [
+  0.6028892547333002,
+  0.6029241917453758,
+  0.7186882213563679,
+  0.6027804110675761
+ ],
+ "diag2_interpretation_hint": "若全量KMeans的ARI仍低→token空间在K=20下确无稳定划分; 若显著升高→MiniBatch随机性主导"
+}

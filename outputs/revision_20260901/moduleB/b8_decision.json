@@ -1,0 +1,60 @@
+{
+ "median_ari_vs_primary_across_seeds": 0.4074864388608862,
+ "min_ari_vs_primary": 0.3805368544371184,
+ "candidate_clusters": [
+  12
+ ],
+ "candidate_selection_criteria": "UOP only; vessel_pct>=0.50 AND CD31 mean rank<=5/20 AND patients>=22/24; Ki-67 not used",
+ "ki67_paired_results": {
+  "UOP": {
+   "n_patients": 24,
+   "median_diff": -0.0011445830348962502,
+   "mean_diff": -0.004077438476419954,
+   "ci95_lo": -0.007082981473911093,
+   "ci95_hi": 0.003813701486475699,
+   "wilcoxon_p": 0.40611207485198975,
+   "n_diff_positive": 11
+  },
+  "STA": {
+   "n_patients": 24,
+   "median_diff": -0.011616261763042725,
+   "mean_diff": -0.015168702863780003,
+   "ci95_lo": -0.016109940653548996,
+   "ci95_hi": -0.0084412640548601,
+   "wilcoxon_p": 8.344650268554688e-06,
+   "n_diff_positive": 3
+  },
+  "pooled": {
+   "n_patients": 48,
+   "median_diff": -0.008164839192867396,
+   "mean_diff": -0.009623070670099978,
+   "ci95_lo": -0.011273302754504798,
+   "ci95_hi": -0.003682616048517197,
+   "wilcoxon_p": 0.0001611254342464008,
+   "n_diff_positive": 14
+  }
+ },
+ "pdpn_uop_exploratory": {
+  "UOP": {
+   "n_patients": 24,
+   "median_diff": -0.015500659038960973,
+   "mean_diff": -0.015625692927232707,
+   "ci95_lo": -0.0170130620882796,
+   "ci95_hi": -0.010036664029094096,
+   "wilcoxon_p": 1.1920928955078125e-07,
+   "n_diff_positive": 0
+  },
+  "pooled": {
+   "n_patients": 24,
+   "median_diff": -0.015500659038960973,
+   "mean_diff": -0.015625692927232707,
+   "ci95_lo": -0.017818321336521052,
+   "ci95_hi": -0.010036664029094096,
+   "wilcoxon_p": 1.1920928955078125e-07,
+   "n_diff_positive": 0
+  }
+ },
+ "decision_rule_applied": "locked-specification decision rule (specification B8)",
+ "decision": "situation_4_clustering_unstable",
+ "naming": "delete Task-3 biological rediscovery claims; keep methodological negative result only"
+}

@@ -1,0 +1,35 @@
+{
+ "run_id": "task3-v2-20260901",
+ "K": 20,
+ "algorithm": "MiniBatchKMeans",
+ "seeds": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9
+ ],
+ "n_init": 10,
+ "batch_size": 8192,
+ "primary_seed": 0,
+ "discovery": "UOP (all 273,408 cells, full fit)",
+ "validation": "STA nearest-centroid assignment (KMeans.predict on frozen UOP centroids)",
+ "n_boot": 500,
+ "stability_ari_vs_primary": {
+  "0": 1.0,
+  "1": 0.3805,
+  "2": 0.4098,
+  "3": 0.4014,
+  "4": 0.3973,
+  "5": 0.4284,
+  "6": 0.4076,
+  "7": 0.4195,
+  "8": 0.3885,
+  "9": 0.4075
+ }
+}
