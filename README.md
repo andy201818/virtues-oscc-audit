@@ -1,5 +1,7 @@
 # VirTues–OSCC external audit
 
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.22271393-blue)](https://doi.org/10.5281/zenodo.22271393) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
+
 Analysis code and result tables for: **"External evaluation of a frozen VirTues checkpoint in oral squamous cell carcinoma"** (Wan, Ban & Liang).
 
 An independent, third-party audit of the frozen, publicly released [VirTues](https://huggingface.co/bunnelab/virtues) `virtues-sp32` checkpoint on public oral squamous cell carcinoma (OSCC) imaging mass cytometry data, across three axes: frozen-feature linear probing, masked-channel reconstruction, and unsupervised token-space analysis. The paper reports a per-marker capability map, two evaluation pitfalls (label-derivation advantage in probing; clustering seed-instability), and a reusable audit checklist.
@@ -31,3 +33,7 @@ Result tables too large for the repository tree (per-cell tables, ~500k cells) a
 ## Licence
 
 Code: MIT. The VirTues upstream code retains its upstream licence; model weights remain under CC BY-NC 4.0; datasets under their upstream licences.
+
+## Citation and archived version
+
+This snapshot is archived on Zenodo: [10.5281/zenodo.22271393](https://doi.org/10.5281/zenodo.22271393) (code frozen at git tag `virtuess-oscc-audit-v5.5`). Please cite the archived DOI.
