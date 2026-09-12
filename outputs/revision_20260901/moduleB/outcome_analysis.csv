@@ -1,3 +1,3 @@
 ﻿outcome,n,n_events,exposure,OR_per_1SD,ci95_lo,ci95_hi,p,interpretation
-Recurrence within 3yrs (binary),14,5,candidate-cluster cell fraction (per 1 SD),0.5474153218092052,0.1484293723764292,2.0188964606783086,0.36552335705101024,exploratory; estimate imprecise/inconclusive
-Recurrence within 3yrs (binary),14,5,vessel-cell fraction in candidate clusters (per 1 SD),0.8711783573236125,0.2725795453272085,2.784331191682086,0.8160492547037967,exploratory; estimate imprecise/inconclusive
+Recurrence within 3yrs (binary),23,9,candidate-cluster cell fraction (per 1 SD),0.5415365837364132,0.19503567767017113,1.5036319253385346,0.23913769198075596,exploratory; estimate imprecise/inconclusive
+Recurrence within 3yrs (binary),23,9,vessel-cell fraction in candidate clusters (per 1 SD),0.6540852217724199,0.2435385277481705,1.7567137376451092,0.3996889033835407,exploratory; estimate imprecise/inconclusive

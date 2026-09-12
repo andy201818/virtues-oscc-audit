@@ -1,0 +1,20 @@
+{
+  "source_files": {
+    "fig5_source\\panelA_umap.csv": "f64ec5bf6f576b18d1e5ea33023cfd83f044f860a19a63dca1503fa14a820476",
+    "fig5_source\\panelB_enrichment.csv": "38307258f9ad73f93f7b114bcf8bcc75fa50a4b7a5920bedbe23501022b649ae",
+    "fig5_source\\panelD_ki67_paired.csv": "ae94727d15e290b66ae5caa421f6bf65e41617741f27131f418816b0ead08bca",
+    "fig5_source\\panelE_cd31_ki67.csv": "31f095b7817027826f2d84df2e6f2754a5dc530358765b47db3bbb6c051ce129",
+    "fig5_source\\panelF_roi.npz": "fab2d555592b193267002d9a941a5d25aaca0ac459595362388a96608c77c506",
+    "cluster_evaluation.csv": "1ddc1802b963e6b9b375e28e87bf0ffac91d328ed4c6ce4e50aa3a36b5c5315d"
+  },
+  "candidate_clusters": [
+    12
+  ],
+  "canvas_inches": [
+    7.2,
+    9.6
+  ],
+  "min_font_pt": 9.0,
+  "effective_min_at_6_5in": 8.125,
+  "changes": "layout and visual encoding only; no input values changed; removed redundant run annotation; no synthetic research image"
+}

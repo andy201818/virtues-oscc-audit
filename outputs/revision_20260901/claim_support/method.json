@@ -1,0 +1,15 @@
+{
+  "analysis_date": "2026-09-05",
+  "status": "post-hoc descriptive analysis",
+  "seed": 20260905,
+  "bootstrap_resamples": 10000,
+  "unit": "patient; stratified by cohort",
+  "interval": "pointwise percentile 95%; no multiplicity correction",
+  "fits": "fixed cached model predictions and LOWO baseline predictions; no refitting",
+  "counts": {
+    "interval_crosses_zero": 16,
+    "positive_interval": 12,
+    "negative_interval": 11
+  },
+  "warning": "A positive interval is not a panel-removal recommendation or prospective validation."
+}

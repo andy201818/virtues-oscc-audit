@@ -1,0 +1,44 @@
+{
+ "10089821-SPECT-VAR-TIS-UNST-03_001": {
+  "tissue": "10089821-SPECT-VAR-TIS-UNST-03_001",
+  "density": 0.594,
+  "unmasked_H3": 0.999,
+  "partial_masking": {
+   "SMA": 0.088,
+   "Histone H3": 0.929,
+   "Ki-67": 0.759,
+   "CD8a": 0.514,
+   "CD4": 0.746,
+   "CD68": 0.813
+  },
+  "full_channel": {
+   "SMA": 0.199,
+   "Histone H3": 0.907,
+   "Ki-67": 0.242,
+   "CD8a": 0.249,
+   "CD4": 0.489,
+   "CD68": 0.667
+  }
+ },
+ "10089829-SPECT-VAR-TIS-UNST-03_001": {
+  "tissue": "10089829-SPECT-VAR-TIS-UNST-03_001",
+  "density": 0.602,
+  "unmasked_H3": 0.998,
+  "partial_masking": {
+   "SMA": 0.232,
+   "Histone H3": 0.862,
+   "Ki-67": 0.792,
+   "CD8a": 0.377,
+   "CD4": 0.734,
+   "CD68": 0.734
+  },
+  "full_channel": {
+   "SMA": 0.248,
+   "Histone H3": 0.779,
+   "Ki-67": 0.437,
+   "CD8a": 0.403,
+   "CD4": 0.612,
+   "CD68": 0.624
+  }
+ }
+}

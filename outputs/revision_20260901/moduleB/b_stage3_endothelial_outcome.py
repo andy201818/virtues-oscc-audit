@@ -110,7 +110,22 @@ for groups_col, tag in [("patient_id", "random_patient"), ("ROI_id", "random_pat
             vm["patientROI"] = vm.patient_id + ":" + vm.ROI_id
             groups_col = "patientROI"
         md = smf.mixedlm("Ki67 ~ is_candidate_cluster + cohort", vm, groups=vm[groups_col])
-        fit = md.fit(method="lbfgs", maxiter=200)
+        # C4 修复 2026-09-12：lbfgs 曾边界坍缩（Group Var=0、cohort CI ±1.4e4/±1.7e5、Hessian 非 PD）。
+        # 换 powell；守卫拒绝退化拟合：converged ∧ Group Var 有限且>0 ∧ 目标行齐全 ∧ 参数/CI/P 有限
+        # ∧ CI 下界<上界 ∧ max CI 宽度<1（NaN 经有限性与 <1 双通道拒绝，防 pandas.max 跳 NaN 漏检）。
+        # 注：statsmodels 对健康拟合也恒发 "MLE may be on the boundary" 谨慎警告，无区分力，不作拒绝条件。
+        fit = md.fit(method="powell", maxiter=1000)
+        _gv = float(fit.cov_re.iloc[0, 0])
+        _ci = fit.conf_int()
+        _need = [t for t in ("is_candidate_cluster[T.True]", "cohort[T.UOP]") if t in fit.params.index]
+        _w = (_ci[1] - _ci[0]).astype(float)
+        _ok = (fit.converged and np.isfinite(_gv) and _gv > 0 and len(_need) == 2
+               and all(np.isfinite(float(fit.params[t])) and np.isfinite(float(fit.pvalues[t])) for t in _need)
+               and bool(np.isfinite(_w[_w.index.isin(_need)].values).all())
+               and all(float(_ci.loc[t, 0]) < float(_ci.loc[t, 1]) for t in _need)
+               and bool(np.isfinite(_w).all()) and float(_w.max()) < 1)
+        assert _ok, \
+            f"degenerate mixed-model fit ({tag}): gv={_gv}, terms={len(_need)}, max_w={_w.max()}, finite={bool(np.isfinite(_w).all())}"
         for name in ["is_candidate_cluster[T.True]", "cohort[T.UOP]"]:
             if name in fit.params.index:
                 ci = fit.conf_int().loc[name]
@@ -118,6 +133,8 @@ for groups_col, tag in [("patient_id", "random_patient"), ("ROI_id", "random_pat
                                 "ci_lo": float(ci.iloc[0]), "ci_hi": float(ci.iloc[1]),
                                 "p": float(fit.pvalues[name]), "n_cells": len(vm),
                                 "n_groups": vm[groups_col].nunique()})
+    except AssertionError:
+        raise  # 守卫失败必须致命，不得落成 ERROR 行静默通过
     except Exception as e:
         mm_rows.append({"model": tag, "term": "ERROR", "coef": np.nan, "ci_lo": np.nan,
                         "ci_hi": np.nan, "p": np.nan, "n_cells": len(vm), "n_groups": np.nan})

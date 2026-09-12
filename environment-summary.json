@@ -1,0 +1,14 @@
+{
+  "scope": "Tested CPU summary and fixed-fit bootstrap environment; not the original GPU inference environment",
+  "python": "3.11.9",
+  "platform": "Windows x86_64",
+  "packages": {
+    "numpy": "2.4.6",
+    "pandas": "3.0.5",
+    "scipy": "1.17.1",
+    "pyarrow": "25.0.1",
+    "matplotlib": "3.11.1"
+  },
+  "tested_entry_points": ["reproduce_key_tables.py", "reproduce_normalization_moments.py", "build_claim_support_map.py"],
+  "note": "Recorded working versions, not proof of a minimal dependency set or compatibility on every platform. Figure 5 additionally requires scikit-image."
+}

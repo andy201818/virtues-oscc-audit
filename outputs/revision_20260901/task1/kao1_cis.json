@@ -1,0 +1,28 @@
+{
+ "cell_level_macro_f1": 0.7524,
+ "cell_level_accuracy": 0.7983,
+ "cell_level_macro_f1_boot95": [
+  0.7491,
+  0.7554
+ ],
+ "tissue_groupkfold5_macro_f1_mean": 0.7286,
+ "tissue_groupkfold5_macro_f1_sd": 0.0125,
+ "tissue_groupkfold5_folds_f1": [
+  0.7165,
+  0.7377,
+  0.7157,
+  0.7253,
+  0.748
+ ],
+ "tissue_groupkfold5_accuracy_mean": 0.786,
+ "patient_groupkfold5_macro_f1_mean": 0.713,
+ "patient_groupkfold5_macro_f1_sd": 0.0179,
+ "patient_groupkfold5_folds_f1": [
+  0.6824,
+  0.7153,
+  0.7065,
+  0.7281,
+  0.7326
+ ],
+ "patient_groupkfold5_accuracy_mean": 0.7814
+}

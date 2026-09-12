@@ -1,0 +1,38 @@
+{
+  "1": {
+    "width_in": 7.2,
+    "min_font_pt": 9.0,
+    "effective_min_at_6_5in": 8.125
+  },
+  "2": {
+    "width_in": 7.2,
+    "min_font_pt": 9.0,
+    "effective_min_at_6_5in": 8.125
+  },
+  "3": {
+    "width_in": 7.2,
+    "min_font_pt": 9.0,
+    "effective_min_at_6_5in": 8.125
+  },
+  "4": {
+    "width_in": 7.2,
+    "min_font_pt": 9.0,
+    "effective_min_at_6_5in": 8.125
+  },
+  "6": {
+    "width_in": 7.2,
+    "min_font_pt": 9.0,
+    "effective_min_at_6_5in": 8.125,
+    "fixed_window": "STA_S02_2_w320_384",
+    "metrics": {
+      "CD45": {
+        "r": 0.8277045559976153,
+        "residual_symmetric_limit": 1.9710121154785156
+      },
+      "pSTAT3": {
+        "r": 0.09201602061407269,
+        "residual_symmetric_limit": 3.152034282684326
+      }
+    }
+  }
+}
