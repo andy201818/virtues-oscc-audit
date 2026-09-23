@@ -1,0 +1,9 @@
+{
+ "mean_f1_n0": 0.7132,
+ "sd_f1_n0": 0.0196,
+ "mean_f1_n1": 0.713,
+ "sd_f1_n1": 0.0203,
+ "mean_d": -0.0002,
+ "max_abs_d": 0.0014,
+ "design": "frozen folds; per-fold training-patient moments; LogisticRegression(max_iter=1000) verbatim"
+}

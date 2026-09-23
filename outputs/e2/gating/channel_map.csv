@@ -1,0 +1,78 @@
+channel_index,channel_name,panel_name_normalized,in_panel_31,in_published_cell_tables,v2_variant_of,six_primary_target,author_gating_removed,use_decision,notes
+0,DAPI,DAPI,True,True,,False,True,COVISIBLE_INPUT,已发表31标记分析集内; 可见输入/ridge协变量候选
+1,Perlecan,,False,False,,False,False,NOT_IN_PUBLISHED_TABLES,成像但未入31标记已发表分析集
+2,TIMP1,,False,False,,False,True,NOT_IN_PUBLISHED_TABLES,成像但未入31标记已发表分析集; 作者门控剔除
+3,PDL1,,False,False,,False,True,NOT_IN_PUBLISHED_TABLES,成像但未入31标记已发表分析集; 作者门控剔除
+4,SPRR1B,,False,False,,False,True,NOT_IN_PUBLISHED_TABLES,成像但未入31标记已发表分析集; 作者门控剔除
+5,MMP2,,False,False,,False,False,NOT_IN_PUBLISHED_TABLES,成像但未入31标记已发表分析集
+6,aSMA,aSMA,True,True,,True,False,PRIMARY_TARGET,"六主目标; HGNC=ACTA2(标准符号,UniProt待核); 图像索引6"
+7,pNRP2,,False,False,,False,False,NOT_IN_PUBLISHED_TABLES,成像但未入31标记已发表分析集
+8,HLAA,HLA-A,True,False,,False,True,NOT_IN_PUBLISHED_TABLES,成像但未入31标记已发表分析集; 作者门控剔除
+9,Podoplanin,Podoplanin,True,True,,False,False,COVISIBLE_INPUT,已发表31标记分析集内; 可见输入/ridge协变量候选
+10,CD56,,False,False,,False,False,NOT_IN_PUBLISHED_TABLES,成像但未入31标记已发表分析集
+11,PDGFRAB,,False,False,,False,False,NOT_IN_PUBLISHED_TABLES,成像但未入31标记已发表分析集
+12,p16,p16,True,True,,False,False,COVISIBLE_INPUT,已发表31标记分析集内; 可见输入/ridge协变量候选
+13,ATP1A1,ATP1A1,True,True,,False,False,COVISIBLE_INPUT,已发表31标记分析集内; 可见输入/ridge协变量候选
+14,FGBv2,,False,False,FGB,False,False,NOT_IN_PUBLISHED_TABLES,"FGB的v2复测通道; 是否=分析表列待分析表到位后相关性裁决; v2歧义仅CD45涉表,其余v2双通道均不在已发表31标记表内,无需裁决"
+15,cMyc,,False,False,,False,True,NOT_IN_PUBLISHED_TABLES,成像但未入31标记已发表分析集; 作者门控剔除
+16,p21,,False,False,,False,False,NOT_IN_PUBLISHED_TABLES,成像但未入31标记已发表分析集
+17,IL1B,,False,False,,False,True,NOT_IN_PUBLISHED_TABLES,成像但未入31标记已发表分析集; 作者门控剔除
+18,HA,,False,False,,False,False,NOT_IN_PUBLISHED_TABLES,成像但未入31标记已发表分析集
+19,Osteoponin,,False,False,,False,False,NOT_IN_PUBLISHED_TABLES,成像但未入31标记已发表分析集
+20,CD19,,False,False,,False,False,NOT_IN_PUBLISHED_TABLES,成像但未入31标记已发表分析集
+21,ZEB1,,False,False,,False,True,NOT_IN_PUBLISHED_TABLES,成像但未入31标记已发表分析集; 作者门控剔除
+22,CD138,,False,False,,False,True,NOT_IN_PUBLISHED_TABLES,成像但未入31标记已发表分析集; 作者门控剔除
+23,HLADR,HLADR,True,True,,False,False,COVISIBLE_INPUT,已发表31标记分析集内; 可见输入/ridge协变量候选
+24,ATF3,,False,False,,False,False,NOT_IN_PUBLISHED_TABLES,成像但未入31标记已发表分析集
+25,IFNG,,False,False,,False,False,NOT_IN_PUBLISHED_TABLES,成像但未入31标记已发表分析集
+26,Lyve1,,False,False,,False,False,NOT_IN_PUBLISHED_TABLES,成像但未入31标记已发表分析集
+27,SLPI,SLPI,True,True,,False,False,COVISIBLE_INPUT,已发表31标记分析集内; 可见输入/ridge协变量候选
+28,pH2Ax,pH2Ax,True,True,,False,False,COVISIBLE_INPUT,已发表31标记分析集内; 可见输入/ridge协变量候选
+29,Ki67,Ki67,True,True,,True,False,PRIMARY_TARGET,"六主目标; HGNC=MKI67(标准符号,UniProt待核); 图像索引29"
+30,Foxp3,,False,False,,False,False,NOT_IN_PUBLISHED_TABLES,成像但未入31标记已发表分析集
+31,CA9,CA9,True,True,,False,False,COVISIBLE_INPUT,已发表31标记分析集内; 可见输入/ridge协变量候选
+32,CD163,CD163,True,True,,True,False,PRIMARY_TARGET,"六主目标; HGNC=CD163(标准符号,UniProt待核); 图像索引32"
+33,CD45v2,,False,False,CD45,False,False,ADJUDICATED_NOT_IN_TABLES,"v2裁决2026-09-21: 与Cell..CD45..Mean逐细胞Spearman仅0.250(CD45@69=0.968,阳性对照PanCK0.977/CD31 0.958);已发表表用idx69"
+34,Postn,Postn,True,True,,False,False,COVISIBLE_INPUT,已发表31标记分析集内; 可见输入/ridge协变量候选
+35,CD15,CD15,True,True,,False,False,COVISIBLE_INPUT,已发表31标记分析集内; 可见输入/ridge协变量候选
+36,CD11c,,False,False,,False,True,NOT_IN_PUBLISHED_TABLES,成像但未入31标记已发表分析集; 作者门控剔除
+37,LAMC2,LAMC2,True,True,,False,False,COVISIBLE_INPUT,已发表31标记分析集内; 可见输入/ridge协变量候选
+38,Tryptase,,False,False,,False,False,NOT_IN_PUBLISHED_TABLES,成像但未入31标记已发表分析集
+39,GLUT1,GLUT1,True,True,,False,False,COVISIBLE_INPUT,已发表31标记分析集内; 可见输入/ridge协变量候选
+40,CD8,CD8,True,True,,False,False,COVISIBLE_INPUT,已发表31标记分析集内; 可见输入/ridge协变量候选
+41,CD31,CD31,True,True,,True,False,PRIMARY_TARGET,"六主目标; HGNC=PECAM1(标准符号,UniProt待核); 图像索引41"
+42,TIMP1v2,,False,False,TIMP1,False,True,NOT_IN_PUBLISHED_TABLES,"TIMP1的v2复测通道; 是否=分析表列待分析表到位后相关性裁决; v2歧义仅CD45涉表,其余v2双通道均不在已发表31标记表内,无需裁决"
+43,VCAN,,False,False,,False,False,NOT_IN_PUBLISHED_TABLES,成像但未入31标记已发表分析集
+44,SPARC,SPARC,True,True,,False,False,COVISIBLE_INPUT,已发表31标记分析集内; 可见输入/ridge协变量候选
+45,ISG20,,False,False,,False,True,NOT_IN_PUBLISHED_TABLES,成像但未入31标记已发表分析集; 作者门控剔除
+46,MMP14,,False,False,,False,False,NOT_IN_PUBLISHED_TABLES,成像但未入31标记已发表分析集
+47,FN1,FN1,True,True,,False,False,COVISIBLE_INPUT,已发表31标记分析集内; 可见输入/ridge协变量候选
+48,C3,,False,False,,False,False,NOT_IN_PUBLISHED_TABLES,成像但未入31标记已发表分析集
+49,Vimentin,,False,False,,False,False,NOT_IN_PUBLISHED_TABLES,成像但未入31标记已发表分析集
+50,PanCK,PanCK,True,True,,False,False,COVISIBLE_INPUT,已发表31标记分析集内; 可见输入/ridge协变量候选
+51,S100A9,S100A9,True,True,,False,False,COVISIBLE_INPUT,已发表31标记分析集内; 可见输入/ridge协变量候选
+52,HAPLN1,,False,False,,False,False,NOT_IN_PUBLISHED_TABLES,成像但未入31标记已发表分析集
+53,CD68,CD68,True,True,,True,False,PRIMARY_TARGET,"六主目标; HGNC=CD68(标准符号,UniProt待核); 图像索引53"
+54,GranzymeB,GranzymeB,True,True,,False,False,COVISIBLE_INPUT,已发表31标记分析集内; 可见输入/ridge协变量候选
+55,MMP9,MMP9,True,True,,False,False,COVISIBLE_INPUT,已发表31标记分析集内; 可见输入/ridge协变量候选
+56,Col1a1,,False,False,,False,False,NOT_IN_PUBLISHED_TABLES,成像但未入31标记已发表分析集
+57,PD1,,False,False,,False,True,NOT_IN_PUBLISHED_TABLES,成像但未入31标记已发表分析集; 作者门控剔除
+58,TNC,TNC,True,True,,False,False,COVISIBLE_INPUT,已发表31标记分析集内; 可见输入/ridge协变量候选
+59,Col4a1,,False,False,,False,True,NOT_IN_PUBLISHED_TABLES,成像但未入31标记已发表分析集; 作者门控剔除
+60,EGFR,EGFR,True,True,,False,False,COVISIBLE_INPUT,已发表31标记分析集内; 可见输入/ridge协变量候选
+61,TP63,TP63,True,True,,False,False,COVISIBLE_INPUT,已发表31标记分析集内; 可见输入/ridge协变量候选
+62,Cytochromec,Cytochromec,True,True,,False,False,COVISIBLE_INPUT,已发表31标记分析集内; 可见输入/ridge协变量候选
+63,LAG3,,False,False,,False,True,NOT_IN_PUBLISHED_TABLES,成像但未入31标记已发表分析集; 作者门控剔除
+64,TFF1,,False,False,,False,True,NOT_IN_PUBLISHED_TABLES,成像但未入31标记已发表分析集; 作者门控剔除
+65,CD11b,CD11b,True,True,,False,False,COVISIBLE_INPUT,已发表31标记分析集内; 可见输入/ridge协变量候选
+66,Tbet,,False,False,,False,True,NOT_IN_PUBLISHED_TABLES,成像但未入31标记已发表分析集; 作者门控剔除
+67,CLDN4,,False,False,,False,True,NOT_IN_PUBLISHED_TABLES,成像但未入31标记已发表分析集; 作者门控剔除
+68,Caspase3,,False,False,,False,True,NOT_IN_PUBLISHED_TABLES,成像但未入31标记已发表分析集; 作者门控剔除
+69,CD45,CD45,True,True,,True,True,PRIMARY_TARGET,"六主目标; HGNC=PTPRC(标准符号,UniProt待核); 图像索引69"
+70,SPRR1Bv2,,False,False,SPRR1B,False,True,NOT_IN_PUBLISHED_TABLES,"SPRR1B的v2复测通道; 是否=分析表列待分析表到位后相关性裁决; v2歧义仅CD45涉表,其余v2双通道均不在已发表31标记表内,无需裁决"
+71,CD4,,False,False,,False,True,NOT_IN_PUBLISHED_TABLES,成像但未入31标记已发表分析集; 作者门控剔除
+72,CD3,,False,False,,False,True,NOT_IN_PUBLISHED_TABLES,成像但未入31标记已发表分析集; 作者门控剔除
+73,LRRC15,,False,False,,False,True,NOT_IN_PUBLISHED_TABLES,成像但未入31标记已发表分析集; 作者门控剔除
+74,CTLA4,,False,False,,False,True,NOT_IN_PUBLISHED_TABLES,成像但未入31标记已发表分析集; 作者门控剔除
+75,FGB,,False,False,,False,True,NOT_IN_PUBLISHED_TABLES,成像但未入31标记已发表分析集; 作者门控剔除
+76,CD19v2,,False,False,CD19,False,True,NOT_IN_PUBLISHED_TABLES,"CD19的v2复测通道; 是否=分析表列待分析表到位后相关性裁决; v2歧义仅CD45涉表,其余v2双通道均不在已发表31标记表内,无需裁决"

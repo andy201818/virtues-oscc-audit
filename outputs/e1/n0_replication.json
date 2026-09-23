@@ -1,0 +1,192 @@
+{
+ "n_windows": 6,
+ "n_forwards_total": 228,
+ "worst_rec_max_abs": 0.0,
+ "worst_metric_abs_diff": 0.0,
+ "interpretation": "rec 与指标差均为浮点舍入级则执行路径等价在真实数据成立",
+ "pass_rule": "worst_rec_max_abs < 1e-4 且 worst_metric_abs_diff < 1e-4 (工程筛查起点,不放宽)",
+ "passed": true,
+ "caveat": "crop 直接取自原缓存: 验证的是推理执行路径, 不含标准化重建(标准化在 N1 单独验)",
+ "rows": [
+  {
+   "key": "UOP_OC01_001_w320_640",
+   "n_markers": 39,
+   "fwd_s": 12.0,
+   "rec_max_abs": 0.0,
+   "rec_p99": 0.0,
+   "r_orig_mean": 0.196201,
+   "r_new_mean": 0.196201,
+   "r_max_abs_diff": 0.0,
+   "marker_sample": {
+    "CD45": {
+     "r0": 0.32086
+    },
+    "CD31": {
+     "r0": 0.279202
+    },
+    "Ki67": {
+     "r0": 0.169508
+    },
+    "aSMA": {
+     "r0": 0.032877
+    },
+    "pCREB": {
+     "r0": 0.292455
+    },
+    "Collagen": {
+     "r0": -0.07518
+    }
+   }
+  },
+  {
+   "key": "UOP_OC02_002_w320_128",
+   "n_markers": 39,
+   "fwd_s": 11.3,
+   "rec_max_abs": 0.0,
+   "rec_p99": 0.0,
+   "r_orig_mean": 0.228414,
+   "r_new_mean": 0.228414,
+   "r_max_abs_diff": 0.0,
+   "marker_sample": {
+    "CD45": {
+     "r0": 0.428537
+    },
+    "CD31": {
+     "r0": 0.250761
+    },
+    "Ki67": {
+     "r0": 0.181671
+    },
+    "aSMA": {
+     "r0": -0.043757
+    },
+    "pCREB": {
+     "r0": 0.218694
+    },
+    "Collagen": {
+     "r0": -0.124707
+    }
+   }
+  },
+  {
+   "key": "STA_S01_1_w320_128",
+   "n_markers": 37,
+   "fwd_s": 10.5,
+   "rec_max_abs": 0.0,
+   "rec_p99": 0.0,
+   "r_orig_mean": 0.294759,
+   "r_new_mean": 0.294759,
+   "r_max_abs_diff": 0.0,
+   "marker_sample": {
+    "CD45": {
+     "r0": 0.682438
+    },
+    "CD31": {
+     "r0": 0.528045
+    },
+    "Ki67": {
+     "r0": 0.131593
+    },
+    "aSMA": {
+     "r0": 0.287095
+    },
+    "pCREB": {
+     "r0": -0.035516
+    },
+    "Collagen": {
+     "r0": 0.208823
+    }
+   }
+  },
+  {
+   "key": "STA_S02_2_w320_320",
+   "n_markers": 37,
+   "fwd_s": 10.3,
+   "rec_max_abs": 0.0,
+   "rec_p99": 0.0,
+   "r_orig_mean": 0.349483,
+   "r_new_mean": 0.349483,
+   "r_max_abs_diff": 0.0,
+   "marker_sample": {
+    "CD45": {
+     "r0": 0.768291
+    },
+    "CD31": {
+     "r0": 0.361795
+    },
+    "Ki67": {
+     "r0": 0.157004
+    },
+    "aSMA": {
+     "r0": 0.263346
+    },
+    "pCREB": {
+     "r0": -0.015734
+    },
+    "Collagen": {
+     "r0": 0.370316
+    }
+   }
+  },
+  {
+   "key": "UOP_OC13_002_w128_128",
+   "n_markers": 39,
+   "fwd_s": 11.5,
+   "rec_max_abs": 0.0,
+   "rec_p99": 0.0,
+   "r_orig_mean": 0.305709,
+   "r_new_mean": 0.305709,
+   "r_max_abs_diff": 0.0,
+   "marker_sample": {
+    "CD45": {
+     "r0": 0.491345
+    },
+    "CD31": {
+     "r0": 0.479917
+    },
+    "Ki67": {
+     "r0": 0.20749
+    },
+    "aSMA": {
+     "r0": 0.832127
+    },
+    "pCREB": {
+     "r0": 0.102146
+    },
+    "Collagen": {
+     "r0": 0.033033
+    }
+   }
+  },
+  {
+   "key": "STA_S13_1_w0_768",
+   "n_markers": 37,
+   "fwd_s": 11.1,
+   "rec_max_abs": 0.0,
+   "rec_p99": 0.0,
+   "r_orig_mean": 0.176135,
+   "r_new_mean": 0.176135,
+   "r_max_abs_diff": 0.0,
+   "marker_sample": {
+    "CD45": {
+     "r0": 0.203624
+    },
+    "CD31": {
+     "r0": 0.447836
+    },
+    "Ki67": {
+     "r0": 0.095953
+    },
+    "aSMA": {
+     "r0": 0.238448
+    },
+    "pCREB": {
+     "r0": -0.090208
+    },
+    "Collagen": {
+     "r0": 0.284257
+    }
+   }
+  }
+ ]
+}

@@ -1,0 +1,42 @@
+{
+ "mode": "v2_after_audit",
+ "audit": "E0_E2新增结果独立核查_20260921.md items 1-4 fixed",
+ "fixes": [
+  "F1 same 11-covisible set both arms per target",
+  "F2 one moments set per outer fold from training cores only",
+  "F3 pooled variance from sufficient stats",
+  "F4 cell-level (nuclei-polygon) aggregation primary; window means secondary; D2=appended-core sensitivity"
+ ],
+ "seed": 20260920,
+ "alpha": 1.0,
+ "win_native": 253,
+ "win_model": 128,
+ "visible_markers": [
+  "CD45",
+  "CD31",
+  "CD68",
+  "CD163",
+  "Ki67",
+  "aSMA",
+  "PanCK",
+  "Podoplanin",
+  "GranzymeB",
+  "CD8",
+  "CD11b",
+  "CD15"
+ ],
+ "targets": [
+  "CD45",
+  "CD31",
+  "CD68",
+  "CD163",
+  "Ki67",
+  "aSMA"
+ ],
+ "n_primary": 27,
+ "n_forwards": 336,
+ "candidates_sha16": "69688cff8ff43dbc",
+ "weights_sha16": "974ebbd557c3717d",
+ "cell_support": "nuclei polygons rasterized on 128 grid (128/253 scale) — approximation to author cell regions, disclosed",
+ "timing_s": 324.9
+}

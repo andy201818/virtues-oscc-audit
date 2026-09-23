@@ -1,0 +1,13 @@
+item,original,external
+Disease / site,oral squamous cell carcinoma,laryngeal SCC
+Platform,imaging mass cytometry,CODEX multiplex IF
+Study,Einhaus et al. 2023,Simkin et al. 2026 (S-BIAD3612)
+Patients (analysis),36 (Task 2) / 48 (Task 1 pool),27 (27 cores=presumed patients; D2 appended-core sensitivity)
+ROIs / cores,142 ROIs,27 cores (+D2)
+Evaluation windows,72 (top-2 density per ROI),54 (top-2 density per core)
+Physical window,128 µm (128 px @ 1 µm/px),"128 µm (~253 px @ 0.5067 µm/px, resampled)"
+Visible channels,39 / 37 per cohort,12 (published markers with local ESM embeddings; limitation)
+Targets,all 39 markers (per-cohort),6 prespecified (CD45/CD31/CD68/CD163/Ki67/aSMA)
+Comparator,LOWO ridge (window-exchange),LOPO ridge (patient-exchange)
+Forwards executed,"2,736 (N0/N1 each)","336 (0.116 s each, measured)"
+GPU,RTX 5060 Ti 16 GB,"same, peak 2.25 GB"

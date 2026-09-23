@@ -1,0 +1,6 @@
+channel,index,target,spearman_centroid_window,spearman_patch64,n_cells,n_patches,verdict
+CD45,69,Cell..CD45..Mean,0.9681379874213182,0.904721249893281,19737,52,CD45(idx69) beats CD45v2(idx33) by +0.718 (window) / +0.109 (patch); positive controls CD31/PanCK window rho=0.958/0.977; negative control DAPI-vs-CD45table rho=0.233
+CD45v2,33,Cell..CD45..Mean,0.25050110295859157,0.795440963032528,19737,52,CD45(idx69) beats CD45v2(idx33) by +0.718 (window) / +0.109 (patch); positive controls CD31/PanCK window rho=0.958/0.977; negative control DAPI-vs-CD45table rho=0.233
+CD31,41,Cell..CD31..Mean,0.9582758668364448,0.9537266285323999,19737,52,CD45(idx69) beats CD45v2(idx33) by +0.718 (window) / +0.109 (patch); positive controls CD31/PanCK window rho=0.958/0.977; negative control DAPI-vs-CD45table rho=0.233
+DAPI,0,Cell..CD45..Mean,0.2333003083902995,0.6713907624007514,19737,52,CD45(idx69) beats CD45v2(idx33) by +0.718 (window) / +0.109 (patch); positive controls CD31/PanCK window rho=0.958/0.977; negative control DAPI-vs-CD45table rho=0.233
+PanCK,50,Cell..PanCK..Mean,0.9770754838529107,0.9372492102791768,19737,52,CD45(idx69) beats CD45v2(idx33) by +0.718 (window) / +0.109 (patch); positive controls CD31/PanCK window rho=0.958/0.977; negative control DAPI-vs-CD45table rho=0.233

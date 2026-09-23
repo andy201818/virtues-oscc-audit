@@ -1,0 +1,6 @@
+{
+ "order_lead_virtues": "1/6",
+ "mae_ridge_smaller": "5/6",
+ "spatial_pixelr_lead_virtues": "2/6 (secondary, window-level)",
+ "bootstrap": "B=10000, seed=20260920, true BCa (z0+jackknife a), percentile fallback disclosed"
+}

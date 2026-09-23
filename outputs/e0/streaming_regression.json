@@ -1,0 +1,31 @@
+{
+ "determinism": {
+  "old_run1_vs_run2_bit_identical": true,
+  "t_old_1_s": 4.241,
+  "t_old_2_s": 3.955
+ },
+ "small": {
+  "img": "8x320x320",
+  "n_crops": 36,
+  "indices_identical": true,
+  "cell_ids_bit_identical": true,
+  "tokens_bit_identical": true,
+  "tokens_max_abs_diff": 0.0,
+  "n_cells_old": 60,
+  "n_cells_new": 60,
+  "peak_gpu_gb_old": 1.628,
+  "peak_gpu_gb_new": 1.626,
+  "t_old_s": 4.241,
+  "t_new_s": 4.014
+ },
+ "big": {
+  "estimated_gpu_gb_just_for_crops_old_path": 2.68,
+  "img": "38x1500x1500",
+  "n_crops": 1156,
+  "n_cells": 400,
+  "peak_gpu_gb_new": 6.936,
+  "t_new_s": 190.361,
+  "crops_per_s": 6.07
+ },
+ "timing": {}
+}

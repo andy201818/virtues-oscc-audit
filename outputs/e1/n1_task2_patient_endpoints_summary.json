@@ -1,0 +1,9 @@
+{
+ "n_marker_cohort": 76,
+ "n_patients_per_combo": 18,
+ "mean_d_mae": 0.001239,
+ "sd_d_mae": 0.001393,
+ "max_abs_d_mae": 0.047527,
+ "spearman_change_abs_mean": 0.008442,
+ "design": "VirTues arm only (ridge side unchanged by N1 by construction); log1p common scale; tissue-mask pixels; patient = mean of 2 windows"
+}

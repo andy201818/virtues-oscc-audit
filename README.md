@@ -1,6 +1,6 @@
 # External evaluation of a frozen VirTues checkpoint in OSCC
 
-This directory contains the revised companion analysis materials. The earlier v5.5 DOI does not archive the additions in this directory. A new public version must be deposited before claiming these additions are available at an archived DOI.
+This directory contains the revised companion analysis materials. Versioned archives of this repository are deposited on Zenodo under concept DOI [10.5281/zenodo.22271392](https://doi.org/10.5281/zenodo.22271392) (each release creates a new version; the concept DOI resolves to the latest version).
 
 Analysis code and result tables for: **"External evaluation of a frozen VirTues checkpoint in oral squamous cell carcinoma"** (Wan, Ban & Liang).
 
@@ -56,6 +56,19 @@ Full-dataset image normalization remains transductive. LOPO sensitivity refits t
 
 Original analysis code: MIT. VirTues upstream code, model weights and datasets retain their upstream licences. Source-derived tables retain applicable attribution and reuse conditions; public release must respect those conditions.
 
+## v6.1 additions (patient-level protocol transfer)
+
+This version adds the execution/preprocessing sensitivity checks and the external laryngeal SCC CODEX transfer, matching the revised manuscript *"A patient-level evaluation protocol for frozen spatial proteomics models: a two-study VirTues analysis"*.
+
+- `code/v61/` — cleaned analysis scripts. Machine-specific absolute paths are replaced by placeholders (`<project-root>` for this repository, `<data-root>` for local dataset/weight locations, `<cache-root>` for pre-existing cached predictions):
+  - `e0_*` — streaming-adapter self-test (seeded synthetic data) and operator-level attention parity against a manually computed FP64 reference;
+  - `e1_*` — N0 cached-forward replication and N1 fold-restricted moments rerun (Task-1 probe, Task-2 window-level and patient-level endpoints);
+  - `e2_*` — external CODEX transfer execution under the audit-corrected (v2) protocol, admission-gating artefacts (channel adjudication, geometry check, window candidates) and the masked-forward runnability probe;
+  - `s5_fig_ext.py`, `s5c_fig1_protocol.py`, `make_figure1_round5.py` — figure generation for the external-comparison and protocol-schematic figures.
+- `outputs/e0/`, `outputs/e1/`, `outputs/e2/s4_v2/`, `outputs/e2/gating/`, `outputs/s5/` — 21 fixed result files (SHA-256 in `MANIFEST_SHA256.json`): external per-cell / per-window / per-patient predictions for both arms, paired metrics, the run manifest (seeds, window geometry, visible-marker list), admission-gating evidence and sensitivity summaries.
+
+The external transfer cohort (S-BIAD3612, EBI BioStudies) is cited in the manuscript and not redistributed here. The earlier `outputs/revision_20260901/` tree is unchanged in this version. Recorded seeds, the five-condition admission checklist, the withdrawn first external implementation and the four audit corrections are documented in the manuscript and its supplement.
+
 ## Citation and archived version
 
-The [earlier v5.5 source archive](https://doi.org/10.5281/zenodo.22271393) does not include the current revision-stage additions. The accompanying file manifest identifies this local bundle; it is not proof of public deposition.
+Versioned archives: concept DOI [10.5281/zenodo.22271392](https://doi.org/10.5281/zenodo.22271392) (resolves to the latest released version; the per-version DOI is listed on the Zenodo record). The earlier [v5.5 source archive](https://doi.org/10.5281/zenodo.22271393) does not include the revision-stage additions. The accompanying file manifest identifies this local bundle; it is not proof of public deposition.
